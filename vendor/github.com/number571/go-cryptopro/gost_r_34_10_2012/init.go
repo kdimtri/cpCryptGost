@@ -1,8 +1,8 @@
 package gost_r_34_10_2012
 
 /*
-#cgo CFLAGS: -I/opt/cprocsp/include/cpcsp -DUNIX -DLINUX -DSIZEOF_VOID_P=8
-#cgo LDFLAGS: -L/opt/cprocsp/lib/ -lcapi10 -lcapi20 -lrdrsup -lssp
+#cgo darwin CFLAGS: -I/opt/cprocsp/include/cpcsp -DUNIX -DLINUX -DSIZEOF_VOID_P=8
+#cgo darwin LDFLAGS: -L/opt/cprocsp/lib/ -lcapi10 -lcapi20 -lrdrsup -lssp
 #cgo linux LDFLAGS: -Wl,--allow-multiple-definition
 #cgo windows LDFLAGS: -Wl,--allow-multiple-definition
 #cgo linux,amd64 CFLAGS: -I/opt/cprocsp/include/cpcsp -DUNIX -DLINUX -DSIZEOF_VOID_P=8
