@@ -3,7 +3,7 @@
 ## Installing:
 First you need to install CryptoPro CSP from https://www.cryptopro.ru/products/csp/downloads
 ```shell
-git clone https://github.com/cpCryptGost 
+git clone https://github.com/kdimtri/cpCryptGost
 cd cpCryptGost && go build
 ```
 ## To run http server:
